@@ -97,7 +97,7 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
+    background-image: url('./../assets/icons/down-arrow.svg');
 }
 
 main {
@@ -122,7 +122,7 @@ main {
 }
 
 .main-exchange-container .backgroundImg {
-    background-image: url(./assets/images/Bitcoin.svg);
+    background-image: url(./../assets/images/Bitcoin.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -151,20 +151,21 @@ main {
 .main-tables-container {
     display: flex;
     height: 400px;
-    gap: 23px;
+    justify-content: center;
+    gap: 10px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    scroll-snap-type: x mandatory;
 }    
 
 
 .main-currency-table {
     scroll-snap-align: center;
-    width: 70%;
-    min-width: 235px;
+    width: 60%;
+    min-width: 255px;
     max-width: 500px;
     height: 350;
-     margin: 0 auto; 
+    justify-content: center;
     font-family: "Inter", sans-serif;
     padding-top: 2rem;
 }
@@ -179,7 +180,7 @@ main {
 
 .currency-table--container {
     width: 90%;
-    min-width: 230px;
+    min-width: 250px;
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
@@ -227,7 +228,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(./assets/icons/trending-down.svg);
+    background-image: url(./../assets/icons/trending-down.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -238,7 +239,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(./assets/icons/trending-up.svg);
+    background-image: url(./../assets/icons/trending-up.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -293,7 +294,7 @@ main {
     height: 25px;
     top: -10px;
     left: calc(50% - 20px);
-    background-image: url(./assets/icons/batata.svg);
+    background-image: url(./../assets/icons/batata.svg);
 }
 
 .product-detail--title {
@@ -338,7 +339,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(./assets/icons/clock.svg);
+    background-image: url(./../assets/icons/clock.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -349,7 +350,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(./assets/icons/eye.svg);
+    background-image: url(./../assets/icons/eye.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -360,7 +361,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(./assets/icons/dollar-sign.svg);
+    background-image: url(./../assets/icons/dollar-sign.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -371,7 +372,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(./assets/icons/check-circle.svg);
+    background-image: url(./../assets/icons/check-circle.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -395,7 +396,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url(./assets/images/bitcoinbaby2x.jpg);
+    background-image: url(./../assets/images/bitcoinbaby2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -412,7 +413,8 @@ main {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    padding-bottom: 70%;
+    height: auto;
+    padding-bottom: 10%;
     text-align: center;
 }
 
@@ -443,10 +445,10 @@ main {
 .plans-container--slider {
     display: flex;
     gap: 13px;
-    height: 316px;
+    height: 326px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    scroll-snap-type: x mandatory;
 }
 
 
@@ -454,7 +456,7 @@ main {
     position: relative;
     scroll-snap-align: center;
     width: 60%;
-    min-width: 200px;
+    min-width: 250px;
     max-width: 300px;
     height: 250px;
     margin: 50px auto 0;
