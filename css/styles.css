@@ -399,6 +399,7 @@ main {
     background-image: url(./../assets/images/bitcoinbaby2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bitcoin-img-container h2 {
@@ -524,7 +525,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-image: url(./../assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
 }
 
